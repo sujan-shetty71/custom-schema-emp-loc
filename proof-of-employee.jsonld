@@ -21,6 +21,10 @@
           "gender": {
             "@id": "vocab:gender",
             "@type": "xsd:integer"
+          },
+          "location": {
+            "@id": "vocab:location",
+            "@type": "xsd:integer"
           }
         }
       }

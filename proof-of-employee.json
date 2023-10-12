@@ -89,11 +89,10 @@
           "format": "uri"
         },
         "isEmployee": {
-          "type": "integer"  // Assuming "isEmployee" is a boolean value
+          "type": "integer"
         },
         "gender": {
-          "type": "integer"  // Assuming "gender" is a string value
-          // You can specify additional constraints or enum values for "gender" if needed.
+          "type": "integer" 
         }
       }
     }

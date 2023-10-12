@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/sujan-shetty71/custom-schema-emp-loc/main/proof-of-employee.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/sujan-shetty71/custom-schema-emp-loc/main/proof-of-employee.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/vinodmalali/custom-schema-emp-loc/main/proof-of-employee.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/vinodmalali/custom-schema-emp-loc/main/proof-of-employee.json"
     }
   },
   "required": [
@@ -81,7 +81,7 @@
     },
     "credentialSubject": {
       "type": "object",
-      "required": ["id", "isEmployee", "gender", "location"],
+      "required": ["id", "isEmployee", "gender"],
       "properties": {
         "id": {
           "title": "Credential Subject ID",
@@ -89,13 +89,11 @@
           "format": "uri"
         },
         "isEmployee": {
-          "type": "integer"
+          "type": "integer"  // Assuming "isEmployee" is a boolean value
         },
         "gender": {
-          "type": "integer"
-        },
-        "location": {
-          "type": "integer"
+          "type": "integer"  // Assuming "gender" is a string value
+          // You can specify additional constraints or enum values for "gender" if needed.
         }
       }
     }

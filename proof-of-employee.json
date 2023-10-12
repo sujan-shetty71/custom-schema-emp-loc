@@ -106,7 +106,7 @@
         "type": "object",
         "required": [
           "id",
-          "isEmployee&&isMale&&location"
+          "isEmployee"
         ],
         "properties": {
           "id": {
@@ -114,7 +114,7 @@
             "type": "string",
             "format": "uri"
           },
-          "isEmployee&&isMale&&location": {
+          "isEmployee": {
             "type": "integer"
           }
         }

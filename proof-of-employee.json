@@ -81,7 +81,7 @@
     },
     "credentialSubject": {
       "type": "object",
-      "required": ["id", "isEmployee"],
+      "required": ["id", "isEmployee", "gender"],
       "properties": {
         "id": {
           "title": "Credential Subject ID",

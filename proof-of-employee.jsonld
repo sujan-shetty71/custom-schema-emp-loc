@@ -14,8 +14,8 @@
           "type": "@type",
           "vocab": "https://github.com/sujan-shetty71/custom-schema-emp-loc/main/proof-of-employee-vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "isEmployee&&isMale&&location": {
-            "@id": "vocab:isEmployee&&isMale&&location",
+          "isEmployee": {
+            "@id": "vocab:isEmployee",
             "@type": "xsd:integer"
           },
           "gender": {

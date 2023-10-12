@@ -92,7 +92,7 @@
           "type": "integer"
         },
         "gender": {
-          "type": "integer" 
+          "type": "integer"
         }
       }
     }

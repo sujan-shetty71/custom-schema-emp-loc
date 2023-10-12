@@ -17,6 +17,10 @@
           "isEmployee": {
             "@id": "vocab:isEmployee",
             "@type": "xsd:integer"
+          },
+          "gender": {
+            "@id": "vocab:gender",
+            "@type": "xsd:integer"
           }
         }
       }
